@@ -1,0 +1,12 @@
+body:
+  - type: textarea
+    id: question
+    attributes:
+      label: What do you need help with?
+      description: Say what you're trying to do and where you got stuck.
+    validations:
+      required: true
+  - type: textarea
+    id: tried
+    attributes:
+      label: What have you tried?
